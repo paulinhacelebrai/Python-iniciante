@@ -1,0 +1,18 @@
+# n = input('Digite qualquer coisa: ')
+# print('O tipo primitivo do que foi digitado é ', type(n))
+# print('O que foi digitado é um número? ', n.isnumeric())
+# print('O que foi digitado é alfabético? ', n.isalpha())
+# print('O que foi digitado é alfanumérico? ', n.isalnum())
+# print('O que foi digitado está em caixa baixa? ', n.islower())
+# print('O que foi digitado está em caixa alta? ', n.isupper())
+# print('O que foi digitado tem a primeira letra maiuscula? ', n.istitle())
+# #tentar fazer o mesmo exercicio usando o format
+
+n = input('Digite qualquer coisa: ')
+print('O tipo primitivo do que foi digitado é {}' .format(type(n)))
+print('O que foi digitado é um número? {} '.format(n.isnumeric()))
+print('O que foi digitado é alfabético? {}' .format(n.isalpha()))
+print('O que foi digitado é alfanumérico? {}' .format(n.isalnum()))
+print('O que foi digitado está em caixa baixa? {}' .format(n.islower()))
+print('O que foi digitado está em caixa alta? {}' .format(n.isupper()))
+print('O que foi digitado está captulado? {}' .format(n.istitle()))
